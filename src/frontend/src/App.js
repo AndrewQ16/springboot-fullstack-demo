@@ -12,7 +12,8 @@ import {
     Tag,
     Avatar,
     Radio,
-    Popconfirm
+    Popconfirm,
+    Divider
 } from 'antd';
 
 import {
@@ -221,7 +222,17 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Amigoscode</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                By Amigoscode
+                <Divider>
+                    <a 
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://www.youtube.com/">
+                        Visit youtube
+                    </a>
+                </Divider>
+            </Footer>
         </Layout>
     </Layout>
 }

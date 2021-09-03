@@ -2,7 +2,7 @@
 version: "3.8"
 services:
   backend:
-    image: "afquinon/springboot-react-fullstack:latest"
+    image: "afquinon/springboot-react-fullstack:3.9.2021.1.50.57"
     ports:
       - "80:8080"
     restart: "always"

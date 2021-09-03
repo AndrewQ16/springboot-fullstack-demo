@@ -226,6 +226,7 @@ function App() {
                 By Amigoscode
                 <Divider>
                     <a 
+                        rel="noopener noreferrer"
                         target="_blank"
                         href="https://www.youtube.com/">
                         Visit youtube
